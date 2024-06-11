@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data Form</title>
+    <link rel="stylesheet" href="exam.css">
+</head>
+<body>
+    <div class="bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+    <div class="container">
+        <h1>User Data Form</h1>
+        <form id="userForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required placeholder="e.g. Alibek">
+            
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required placeholder="e.g. Kamiyev">
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required placeholder="e.g. 18">
+            
+            <button type="submit">Submit</button>
+        </form>
+        <h2>Adults List</h2>
+        <table id="adultsTable">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody id="adultsList"></tbody>
+        </table>
+        <button id="clearData">Clear Data</button>
+    </div>
+    <script src="exam.js"></script>
+</body>
+</html>
