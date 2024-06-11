@@ -44,3 +44,4 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('adultsData', JSON.stringify(existingData));
     }
 });
+// New function added
